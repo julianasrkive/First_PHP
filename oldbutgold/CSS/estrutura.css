@@ -1,0 +1,244 @@
+*{
+    padding: 5px;
+    margin: 5px;
+} /* aplica a todos os elementos do site*/
+
+.linhaUmIndex{
+    background: url(../IMG/old.capa.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    min-height: 200px; /* o background terá no MÍNIMO 200px de altura */
+    background-position-y: -150px; /* movimentei a imagem pra cima, dentro do quadrado */
+
+} 
+
+/* ESTILIZAÇÃO DA HEADER */
+body{
+    background-color: #f2c087 !important;
+}
+.navbar-nav {
+    margin: 0 auto;
+}
+.logo{
+    text-align: right;
+   padding-right: 15%;
+}
+.tela-index{
+padding-left: 35%;
+}
+.tela-index img{
+    padding: -20px;
+}
+.tela-index p{
+    text-align: justify;
+}
+
+
+/* ESTILIZAÇÃO DA ÁREA LOGIN */
+.tela-login{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg ,#FFA07A,#B8860B);
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+.botao{
+    background:DarkSeaGreen;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+.botao:hover{
+    background-color: lightslategray;   
+}
+.erro{
+    color: white;
+    width: 50%;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+}
+
+.tela-login a:hover{
+    color: #fff;
+}
+.logout a{
+    font-family: Arial, Helvetica, sans-serif;
+    background:DarkSeaGreen;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    color: black;
+    font-size: 15px;
+}
+        
+/* ESTILIZAÇÃO DA ÁREA  DE CADASTRO */
+.blococadastro form{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg ,#FFA07A,#B8860B);
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    bottom:-10%;
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+
+.blococadastro a{
+    text-align: left;
+    color: white;
+}
+.forget{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg ,#FFA07A,#B8860B);
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    padding: 40px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+}
+.alterar input{
+    background:#F8F8FF;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+}
+.alterar .botao{
+    background:grey;
+    padding: 15px;
+    width: 50%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* ESTILIZAÇÃO DA ÁREA  ACERVO */
+.biblioteca{
+    display: flex;
+    align-items:center;
+    align-content: center;
+    padding-bottom: 10px;
+}
+.biblioteca h4{
+    background-color: darkred;
+}
+.biblioteca h5{
+    background-color: seagreen;
+    text-align: justify;
+}
+.biblioteca p{
+    text-align: justify;
+}
+.biblioteca .col-10{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: justify;
+    text-shadow: none;
+}
+.adicionado-recente .col-12{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: justify;
+    text-shadow: none;
+}
+
+/* ESTILIZAÇÃO DA ÁREA PAINEL DA ÁREA DE USUÁRIO LOGADO */
+.principal{
+    width: 800px;
+    height: 1500px;
+    border: solid 2px;
+    margin-left: 30%;
+}
+.painel{
+    width: 785px;
+    height: 70px;
+    background-color:#777;
+    margin: 0;
+    color: white;
+}
+.painel h3{
+    text-align: center;
+    line-height: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* ESTILIZAÇÃO DA ÁREA DE CONTATO E MAPA*/
+.fale-conosco{
+    text-align: center;
+}
+.mapa h4{
+    text-align: right;
+}
+.mapa iframe{
+    text-align: center;
+    position:relative;
+}
+/* ESTILIZAÇÃO DA ÁREA 'EM BREVE' */
+
+.breve h2{
+    border: 5px dotted #B8860B; 
+    text-align: center;
+    color: black;
+
+}
+.breve h4{
+    text-align: center;
+    color: black;
+}
+.col-8{
+    width: fit-content;
+}
+.col-8 img{
+    width:400px;
+    height: 350px;
+    padding-left: 50px;
+   
+}
+
+.col-6 iframe{
+    width:-250px;
+    height: -300px;
+    align-content:baseline;
+   
+    
+}
+
+
+
+/* ESTILIZAÇÃO DA ÁREA DE RODAPÉ */
+footer{
+  position: relative;
+  bottom: 0;
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+footer ul{
+    text-align: right;
+    color:whitesmoke;
+}
+footer a{
+    color:whitesmoke;
+}
+
+
+
+
